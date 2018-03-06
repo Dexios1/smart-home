@@ -1,0 +1,25 @@
+
+.translucent{
+    background-color:rgba(0, 0, 0, 0.3) !important;
+}
+.transparent{
+    background-color:rgba(0, 0, 0, 0) !important;
+}
+.wrapper{
+    margin-top: 50px;
+}
+body{
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: white;
+}
+.card{
+    border-radius: 0px;
+    border-color: rgba(0, 0, 0, 0);
+}
+html{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url('../img/new-york.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
