@@ -35,8 +35,21 @@ body{
     border-radius: 0px;
     border-color: rgba(0, 0, 0, 0);
 }
+.env-stats-h2{
+    font-size: 2rem;
+    font-weight: lighter;
+}
+.smart-card{
+    padding-top: 1rem;
+}
+.smart-item{
+    padding-bottom: 1rem;
+}
+.lightweight-font{
+    font-weight: lighter !important;
+}
 html{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url('../img/new-york.jpg') no-repeat center center fixed;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),  url('../img/new-york.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -47,9 +60,6 @@ html{
 }
 .sidebar {
     position: fixed;
-    /* top: 0;
-    bottom: 0;
-    left: 0; */
     margin-top: 5rem;
     z-index: 100;
     padding: 0;
@@ -63,4 +73,18 @@ html{
     padding-top: .5rem;
     overflow-x: hidden;
     overflow-y: auto;
+}
+.smart-nav{
+    padding: 0.5rem 0rem;
+}
+.center{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.hr-nav{
+    border-top: 0px none rgba(0,0,0,0);
+    margin: 0rem;
+}
+hr{
+    margin: 0.5rem;
 }
