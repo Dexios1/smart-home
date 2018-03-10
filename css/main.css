@@ -8,12 +8,13 @@ a:link {
 a:visited {
     color: #FFFFFF;
 }
-
 /* mouse over link */
 a:hover {
     color: #FFFFFF;
 }
-
+.row.item{
+    margin-top: 2.5rem;
+}
 /* selected link */
 a:active {
     color: #FFFFFF;
@@ -40,10 +41,10 @@ body{
     border-radius: 0px;
     border-color: rgba(0, 0, 0, 0);
 }
-.env-stats-h2{
+/* .env-stats-h2{
     font-size: 2rem;
     font-weight: lighter;
-}
+} */
 .smart-card{
     padding-top: 1rem;
 }
