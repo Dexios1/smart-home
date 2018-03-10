@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- font awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <!-- UIkit CSS -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/css/uikit.min.css" /> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -11,101 +13,166 @@
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit-icons.min.js"></script> -->
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/music-player.css">
     <title>Document</title>
 
 </head>
 <body class="transparent">
     <!-- set grid systems with 3 columns -->
     <div class="dash-background">
+      <nav class="navbar navbar-expand-lg navbar-light bg-blue">
+        <div class="container">
+            <a class="navbar-brand" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">
+                    Home<span class="sr-only">(current)</span>
+                    <hr class="nav-hr">
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="mr-auto">
+              <span>Friday, 10th March 2018</span>
+            </div>
+        </div>
+      </nav>
             <div class="container-fluid">
-                    <div class="row wrapper">
-                      <div class="col">
-                        <div class="card transparent">
-                            <div class="card-body">
-                              <div class="row ">
-                                <div class="col">
-                                  <div class="row">
-                                      <h2 class="env-stats-h2 lightweight-font">12:30</h2><span>pm</span>
-                                      <p>Friday, 28 October</p>
-                                  </div>
-                                </div>
-                                <div class="col">
-                                  <div class="row">
-                                      <img src="img/icons/weather/sunny-cloudy.png" width="45" height="45" alt="">
-                                  </div>
-                                  <p class="env-stats-h2">23 &deg; </p>
-                                      <p>Accra</p>
-                                </div>
-                              </div>
-                              <div class="row card transparent smart-card">
-                                <div class="col card-body">
-                                  <h3>Front Door locked</h3>
-                                  <h3>Livingroom blinds opened</h3>
-                                  <h3>4 lights on</h3>
-                                  <p>and 3 more > </p>
-                                </div>
-                              </div>
+              <div class="wrapper">
+                  <div class="row">
+                    <div class="col-8">
+                        <div class="item">
+                            <img src="img/icons/weather/sunny-cloudy.png" width="60" height="60" alt="">
+                            <span>
+                                <span class="env-stats-h2">23 &deg; </span>
+                                <br>
+                                <span class="env-stats-h2">Accra</span>
+                            </span>
+                        </div>
+                        <div class="item">
+                            <h3>It will rain today in Accra</h3>
+                            <h3>Government is planning to raise fuel prices...</h3>
+                            <h3>Lving room blinds are open</h3>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="row">
+                            <i class="fas fa-music fa-2x spaced"></i>
+                            <i class="fas fa-lock fa-2x spaced"></i>
+                            <i class="fas fa-camera fa-2x spaced"></i>
+                            <i class="fas fa-play-circle fa-2x spaced"></i>
+                        </div>
+                        <div class="row">
+                          <div class="music-player">
+                            <div class="control-buttons">
+                              <button class="control-button player-close"></button>
+                              <button class="control-button player-minimize"></button>
+                              <button class="control-button player-maximize"></button>
+                              <span class="play-buttons">
+                                  <i class="fas fa-backward"></i>
+                                  <i class="fas fa-play"></i>
+                                  <i class="fas fa-forward"></i>
+                              </span>
                             </div>
                           </div>
-                      </div>
-                      <div class="col offset-md-4">
-                        <div class="row transparent">
-                            <img src="img/icons/uber-icon.svg">
-                            <img src="https://png.icons8.com/ios/50/000000/evernote-filled.png">
-                            <img src="https://png.icons8.com/ios/50/000000/soundcloud-filled.png">
-                        
-                        </div>
-                        <div class="row ">
-                          <nav class="sidebar">
-                            <div class="sidebar-sticky">
-                                <div class="row">
-                                    <div class="col-7">
-                                        <ul class="nav flex-column">
-                                            <li class="nav-item smart-nav">
-                                              <a href="">Living Room</a>
-                                              <hr class="hr-nav">
-                                            </li>
-                                            <li class="nav-item smart-nav">
-                                              <hr>
-                                              <a href="">Living Room</a>
-                                              <hr>
-                                            </li>
-                                            <li class="nav-item smart-nav">
-                                              <hr class="hr-nav">
-                                                <a href="">Living Room</a>
-                                            </li>
-                                            <li class="nav-item smart-nav">
-                                              <hr class="hr-nav">
-                                                <a href="">Living Room</a>
-                                            </li>
-                                          </ul>
-                                    </div>
-                                    <div class="col-5">
-                                        <ul class="nav flex-column align-left">
-                                            <li class="nav-item smart-nav ">
-                                              <span class="nav-icon"><i class="fas fa-circle fa-xs"></i></span>
-                                            </li>
-                                            <li class="nav-item smart-nav">
-                                              <span class="nav-icon"><i class="fas fa-circle fa-xs"></i></span>
-                                            </li>
-                                            <li class="nav-item smart-nav">
-                                              <span class="nav-icon"><i class="fas fa-circle fa-lg"></i></span>
-                                            </li>
-                                            <li class="nav-item smart-nav">
-                                              <span class="nav-icon"><i class="fas fa-circle fa-xs"></i></span>
-                                            </li>
-                                            <li class="nav-item smart-nav">
-                                              <span class="nav-icon"><i class="fas fa-circle fa-xs"></i></span>
-                                            </li>
-                                          </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                          </nav>
                         </div>
                     </div>
                   </div>
+              </div>
+              <div class="row wrapper">
+                <div class="col">
+                  <div class="card transparent">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col">
+                            <div class="row">
+                                <h2 class="env-stats-h2 lightweight-font">12:30</h2><span>pm</span>
+                                <p>Friday, 28 October</p>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="row">
+                                <img src="img/icons/weather/sunny-cloudy.png" width="45" height="45" alt="">
+                            </div>
+                            <p class="env-stats-h2">23 &deg; </p>
+                                <p>Accra</p>
+                          </div>
+                        </div>
+                        <div class="row card transparent smart-card">
+                          <div class="col card-body">
+                            <h3>Front Door locked</h3>
+                            <h3>Livingroom blinds opened</h3>
+                            <h3>4 lights on</h3>
+                            <p>and 3 more > </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col offset-md-4">
+                  <div class="row transparent">
+                      <img src="img/icons/uber-icon.svg">
+                      <img src="https://png.icons8.com/ios/50/000000/evernote-filled.png">
+                      <img src="https://png.icons8.com/ios/50/000000/soundcloud-filled.png">
+                  
+                  </div>
+                  <div class="row ">
+                    <nav class="sidebar">
+                      <div class="sidebar-sticky">
+                          <div class="row" >
+                              <div class="col-7">
+                                  <ul class="nav flex-column">
+                                      <li class="nav-item smart-nav">
+                                        <a href="">Living Room</a>
+                                        <hr class="hr-nav">
+                                      </li>
+                                      <li class="nav-item smart-nav">
+                                        <hr>
+                                        <a href="">Living Room</a>
+                                        <hr>
+                                      </li>
+                                      <li class="nav-item smart-nav">
+                                        <hr class="hr-nav">
+                                          <a href="">Living Room</a>
+                                      </li>
+                                      <li class="nav-item smart-nav">
+                                        <hr class="hr-nav">
+                                          <a href="">Living Room</a>
+                                      </li>
+                                    </ul>
+                              </div>
+                              <div class="col-5">
+                                  <ul class="nav flex-column align-left">
+                                      <li class="nav-item smart-nav ">
+                                        <span class="nav-icon"><i class="fas fa-circle fa-xs"></i></span>
+                                      </li>
+                                      <li class="nav-item smart-nav">
+                                        <span class="nav-icon"><i class="fas fa-circle fa-xs"></i></span>
+                                      </li>
+                                      <li class="nav-item smart-nav">
+                                        <span class="nav-icon"><i class="fas fa-circle fa-lg"></i></span>
+                                      </li>
+                                      <li class="nav-item smart-nav">
+                                        <span class="nav-icon"><i class="fas fa-circle fa-xs"></i></span>
+                                      </li>
+                                      <li class="nav-item smart-nav">
+                                        <span class="nav-icon"><i class="fas fa-circle fa-xs"></i></span>
+                                      </li>
+                                    </ul>
+                              </div>
+                          </div>
+                      </div>
+
+                    </nav>
+                  </div>
+              </div>
+              
+            </div>
     </div>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </body>

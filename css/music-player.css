@@ -1,0 +1,22 @@
+.music-player{
+    margin-top: 1rem;
+    background-color: rgb(207, 208, 208) !important;
+    width: 100vw;
+    min-height: 2.5rem;
+}
+.control-button{
+    border-radius: 50%;
+    border-color: transparent;
+    min-height: 1rem;
+    margin: 1rem 0rem 1rem 0.5rem;
+    
+}
+.player-close{
+    background-color: rgb(224, 116, 97);
+}
+.player-minimize{
+    background-color: rgb(240, 185, 84);
+}
+.player-maximize{
+    background-color: rgb(126, 175, 88);
+}

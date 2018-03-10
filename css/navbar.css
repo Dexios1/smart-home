@@ -1,0 +1,12 @@
+.bg-blue{
+    background-color: rgb(72, 177, 224) !important;
+    color: #FFFFFF !important;
+}
+.nav-link{
+    color: #FFFFFF !important;
+}
+.nav-hr{
+    margin: 0rem;
+    background-color: #FFFFFF;
+    min-width: 4rem;
+}

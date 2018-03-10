@@ -1,0 +1,14 @@
+.gallery-wrapper {
+    overflow: hidden;
+  }
+  
+.grid-item {
+    padding-bottom: 3rem;
+}
+  
+.sidebar {
+    text-align: center;
+    padding: 1rem;
+    background: red;
+    height: 900px;
+}
