@@ -5,7 +5,10 @@
 .grid-item {
     padding-bottom: 3rem;
 }
-  
+.senseble-grid-2-cols{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
 .sidebar {
     text-align: center;
     padding: 1rem;

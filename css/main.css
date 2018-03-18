@@ -1,17 +1,15 @@
 @import url('fonts.css');
 @import url('navbar.css')
 /* unvisited link */
-a:link {
-    color: #FFFFFF;
-}
+
 /* visited link */
-a:visited {
+/* a:visited {
     color: #FFFFFF;
 }
 /* mouse over link */
-a:hover {
+/* a:hover {
     color: #FFFFFF;
-}
+} */ */
 .row.item{
     margin-top: 2.5rem;
 }
@@ -26,16 +24,24 @@ a:active {
 .transparent{
     background-color:rgba(0, 0, 0, 0) !important;
 }
-.wrapper{
-    margin: 4rem;
-
+@media (min-width: 992px){
+    .wrapper{
+        margin: 4rem;
+    }
 }
+@media (min-width: 768px){
+    .wrapper{
+        margin: 2rem;
+    }
+}
+
+
 .spaced{
     margin-right: 1rem;
 }
 body{
     font-family: 'Nunito', sans-serif;
-    color: white;
+    
 }
 .card{
     border-radius: 0px;

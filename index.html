@@ -15,13 +15,15 @@
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/music-player.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/grid.css">
     <title>Document</title>
 
 </head>
 <body class="transparent">
     <!-- set grid systems with 3 columns -->
     <div class="dash-background">
-      <nav class="navbar navbar-expand-lg navbar-light bg-blue">
+      <nav class="navbar navbar-expand-lg navbar-light bg-blue sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#">Logo</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,9 +45,9 @@
         </div>
       </nav>
             <div class="container-fluid">
-              <div class="wrapper">
+              <div class="wrapper text-white">
                   <div class="row">
-                    <div class="col-8">
+                    <div class="col-lg-8 col-md-8 col-sm-12">
                         <div class="item">
                             <img src="img/icons/weather/sunny-cloudy.png" width="60" height="60" alt="">
                             <span>
@@ -60,7 +62,7 @@
                             <h3>Lving room blinds are open</h3>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-4 col-sm-12 item">
                         <div class="row">
                             <i class="fas fa-music fa-2x spaced"></i>
                             <i class="fas fa-lock fa-2x spaced"></i>
@@ -85,93 +87,41 @@
                   </div>
               </div>
               <div class="row wrapper">
-                <div class="col">
-                  <div class="card transparent">
-                      <div class="card-body">
-                        <div class="row">
-                          <div class="col">
-                            <div class="row">
-                                <h2 class="env-stats-h2 lightweight-font">12:30</h2><span>pm</span>
-                                <p>Friday, 28 October</p>
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class="row">
-                                <img src="img/icons/weather/sunny-cloudy.png" width="45" height="45" alt="">
-                            </div>
-                            <p class="env-stats-h2">23 &deg; </p>
-                                <p>Accra</p>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                  <div class="card">
+                    <div class="card-body ">
+                      <div class="senseble-card-item-row senseble-grid-2-cols">
+                        <div><h5 class="card-title">Bedroom</h5></div>
+                        <div>
+                          <i class="fas fa-bolt card-icon-blue"></i>
+                          <span class="card-item-line-separator"></span>
+                          <i class="fas fa-bolt card-icon-blue"></i>
+                        </div>
+                      </div>
+                      <div class="senseble-card-item-row senseble-grid-2-cols">
+                          <div><h5 class="card-title">Bedroom</h5></div>
+                          <div>
+                            <i class="fas fa-bolt card-icon-blue"></i>
+                            <span class="card-item-line-separator"></span>
+                            <i class="fas fa-bolt card-icon-blue"></i>
                           </div>
                         </div>
-                        <div class="row card transparent smart-card">
-                          <div class="col card-body">
-                            <h3>Front Door locked</h3>
-                            <h3>Livingroom blinds opened</h3>
-                            <h3>4 lights on</h3>
-                            <p>and 3 more > </p>
-                          </div>
-                        </div>
+                      
+                    <div class="card-text">
+                      <div class="">
+                        <input type="checkbox" id="toggle1" name="toggle1" class="switch-input">
+                        <label for="toggle1" class="switch-label"></label>
                       </div>
                     </div>
-                </div>
-                <div class="col offset-md-4">
-                  <div class="row transparent">
-                      <img src="img/icons/uber-icon.svg">
-                      <img src="https://png.icons8.com/ios/50/000000/evernote-filled.png">
-                      <img src="https://png.icons8.com/ios/50/000000/soundcloud-filled.png">
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                  </div>
                   
-                  </div>
-                  <div class="row ">
-                    <nav class="sidebar">
-                      <div class="sidebar-sticky">
-                          <div class="row" >
-                              <div class="col-7">
-                                  <ul class="nav flex-column">
-                                      <li class="nav-item smart-nav">
-                                        <a href="">Living Room</a>
-                                        <hr class="hr-nav">
-                                      </li>
-                                      <li class="nav-item smart-nav">
-                                        <hr>
-                                        <a href="">Living Room</a>
-                                        <hr>
-                                      </li>
-                                      <li class="nav-item smart-nav">
-                                        <hr class="hr-nav">
-                                          <a href="">Living Room</a>
-                                      </li>
-                                      <li class="nav-item smart-nav">
-                                        <hr class="hr-nav">
-                                          <a href="">Living Room</a>
-                                      </li>
-                                    </ul>
-                              </div>
-                              <div class="col-5">
-                                  <ul class="nav flex-column align-left">
-                                      <li class="nav-item smart-nav ">
-                                        <span class="nav-icon"><i class="fas fa-circle fa-xs"></i></span>
-                                      </li>
-                                      <li class="nav-item smart-nav">
-                                        <span class="nav-icon"><i class="fas fa-circle fa-xs"></i></span>
-                                      </li>
-                                      <li class="nav-item smart-nav">
-                                        <span class="nav-icon"><i class="fas fa-circle fa-lg"></i></span>
-                                      </li>
-                                      <li class="nav-item smart-nav">
-                                        <span class="nav-icon"><i class="fas fa-circle fa-xs"></i></span>
-                                      </li>
-                                      <li class="nav-item smart-nav">
-                                        <span class="nav-icon"><i class="fas fa-circle fa-xs"></i></span>
-                                      </li>
-                                    </ul>
-                              </div>
-                          </div>
-                      </div>
-
-                    </nav>
-                  </div>
+                </div>
+                <div class="col-3"></div>
+                <div class="col-3"></div>
+                <div class="col-3"></div>
               </div>
-              
             </div>
     </div>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>

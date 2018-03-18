@@ -4,14 +4,24 @@
 .card{
     margin-bottom: 1rem;
 }
+
 .card-item{
     float: left;
 }
 .card-item-control{
     float: right;
 }
+.card-item-line-separator{
+    margin-right: 0.75rem;
+}
+.card-text{
+    color: rgb(118, 119, 122);
+}
 .col-card{
     padding-right: 0rem;
+}
+.senseble-card-item-row{
+    padding: 10px;
 }
 .switch-input {
     display: none;
@@ -73,4 +83,7 @@
 }
 .switch-input:checked + .switch-label .toggle--off {
     display: none;
+}
+.card-icon-blue{
+    color: rgb(37, 128, 187);
 }
