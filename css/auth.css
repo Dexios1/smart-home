@@ -9,8 +9,8 @@
     background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),  url('../img/bg-auth.jpg') no-repeat center center fixed;
     background-size: cover;
     display: block;
-    filter: blur(7px);
-    -webkit-filter: blur(7px);
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
     height: 800px;
     left: 0;
     top: 0px;
