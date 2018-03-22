@@ -24,6 +24,11 @@ a:active {
 .transparent{
     background-color:rgba(0, 0, 0, 0) !important;
 }
+@media (max-width: 500px){
+    .wrapper{
+        margin: 1rem;
+    }
+}
 @media (min-width: 992px){
     .wrapper{
         margin: 4rem;
@@ -31,10 +36,9 @@ a:active {
 }
 @media (min-width: 768px){
     .wrapper{
-        margin: 2rem;
+        margin: 4rem;
     }
 }
-
 
 .spaced{
     margin-right: 1rem;

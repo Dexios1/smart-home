@@ -1,8 +1,9 @@
 .music-player{
-    /* margin-top: 1rem; */
+    margin-top: 1rem;
     background-color: rgb(207, 208, 208) !important;
     /* width: 100vw; */
     min-height: 2.5rem;
+    min-width: 400px;
 }
 .component-group{
     margin: 0rem 1rem;
